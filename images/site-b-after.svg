@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="siteBAfterTitle">
+  <title id="siteBAfterTitle">After: the same riverbank, reeds and rocks clear of litter with a dragonfly over the water</title>
+  <defs>
+    <linearGradient id="baSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9edee"/><stop offset="1" stop-color="#a9d6cf"/>
+    </linearGradient>
+    <linearGradient id="baWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/><stop offset="1" stop-color="#0f3b47"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#baSky)"/>
+  <path d="M0 340c220-20 340 20 500 0s180-20 300 5v255H0z" fill="url(#baWater)"/>
+  <path d="M20 380q220-15 400 5t360-5" fill="none" stroke="#7fcdd6" stroke-width="4" opacity="0.35"/>
+  <path d="M60 440q220-10 380 5t340-8" fill="none" stroke="#a9e2e6" stroke-width="3" opacity="0.3"/>
+
+  <!-- rocks, same layout -->
+  <g fill="#8a8478">
+    <ellipse cx="120" cy="380" rx="60" ry="26"/>
+    <ellipse cx="70" cy="400" rx="40" ry="20"/>
+    <ellipse cx="680" cy="370" rx="55" ry="24"/>
+  </g>
+
+  <!-- reeds, clean -->
+  <g stroke="#33562c" stroke-width="8" stroke-linecap="round">
+    <path d="M40 600V320"/><path d="M90 600V280"/><path d="M700 600V300"/><path d="M760 600V260"/>
+  </g>
+
+  <!-- dragonfly over clean water -->
+  <g transform="translate(400,300)">
+    <ellipse cx="0" cy="0" rx="5" ry="16" fill="#0f3b47"/>
+    <path d="M-30 -6c10-8 22-8 30 -2" stroke="#7fcdd6" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M30 -6c-10-8-22-8-30 -2" stroke="#7fcdd6" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M-28 4c10-6 22-4 28 2" stroke="#7fcdd6" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M28 4c-10-6-22-4-28 2" stroke="#7fcdd6" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- small fish breaking surface -->
+  <g transform="translate(560,420)">
+    <path d="M0 10 Q14 -4 32 10 Q14 24 0 10Z" fill="#d9edee" opacity="0.85"/>
+  </g>
+</svg>

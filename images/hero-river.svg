@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Illustration of the Bronx River Pathway at sunrise, with a walking path, trees along both banks, and two volunteers carrying a cleanup bag</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/>
+      <stop offset="0.55" stop-color="#a9d6cf"/>
+      <stop offset="1" stop-color="#f6f2ea"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7e0"/>
+      <stop offset="1" stop-color="#fff7e0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillsFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fae5f"/>
+      <stop offset="1" stop-color="#4a7c3f"/>
+    </linearGradient>
+    <linearGradient id="hillsNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a7c3f"/>
+      <stop offset="1" stop-color="#33562c"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/>
+      <stop offset="1" stop-color="#0f3b47"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e0d2"/>
+      <stop offset="1" stop-color="#d9cfba"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1260" cy="190" r="180" fill="url(#sun)"/>
+  <circle cx="1260" cy="190" r="58" fill="#fff7e0" opacity="0.9"/>
+
+  <!-- birds -->
+  <g stroke="#0f3b47" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M220 140q14-16 28 0q14-16 28 0"/>
+    <path d="M300 190q11-13 22 0q11-13 22 0"/>
+    <path d="M980 120q12-14 24 0q12-14 24 0"/>
+  </g>
+
+  <!-- far hills -->
+  <path d="M0 520c220-70 420-70 620 0s430 60 640-10 260-40 340 10v380H0z" fill="url(#hillsFar)" opacity="0.55"/>
+  <!-- mid tree line, left bank -->
+  <g fill="url(#hillsNear)" opacity="0.85">
+    <ellipse cx="120" cy="560" rx="150" ry="90"/>
+    <ellipse cx="250" cy="540" rx="130" ry="80"/>
+    <ellipse cx="60" cy="600" rx="120" ry="80"/>
+  </g>
+  <!-- mid tree line, right bank -->
+  <g fill="url(#hillsNear)" opacity="0.85">
+    <ellipse cx="1480" cy="540" rx="160" ry="95"/>
+    <ellipse cx="1360" cy="565" rx="130" ry="80"/>
+    <ellipse cx="1560" cy="600" rx="120" ry="85"/>
+  </g>
+
+  <!-- river -->
+  <path d="M0 620c260-40 360 40 620 20s400-90 660-40 320 70 320 70v230H0z" fill="url(#water)"/>
+  <path d="M40 660c220-30 360 20 600 5s430-70 660-25 260 40 260 40" fill="none" stroke="#7fcdd6" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+  <path d="M20 720c220-25 380 20 620 5s420-55 650-15 270 35 270 35" fill="none" stroke="#a9e2e6" stroke-width="5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- near bank / grass either side of path -->
+  <path d="M0 640c220 10 340 60 470 120s170 140 130 140H0z" fill="#e4efd9"/>
+  <path d="M1600 640c-220 10-340 60-470 120s-170 140-130 140h600z" fill="#e4efd9"/>
+
+  <!-- walking pathway -->
+  <path d="M560 900c40-160 60-220 180-260s180-30 260 10 100 90 130 250z" fill="url(#path)" stroke="#c7bb9e" stroke-width="3"/>
+  <path d="M700 900c14-120 26-170 100-205" fill="none" stroke="#c7bb9e" stroke-width="3" stroke-dasharray="10 14" opacity="0.7"/>
+
+  <!-- near-left foliage cluster -->
+  <g>
+    <ellipse cx="150" cy="760" rx="170" ry="120" fill="#33562c"/>
+    <ellipse cx="90" cy="700" rx="120" ry="90" fill="#4a7c3f"/>
+    <ellipse cx="230" cy="720" rx="110" ry="80" fill="#4a7c3f"/>
+  </g>
+  <!-- near-right foliage cluster -->
+  <g>
+    <ellipse cx="1470" cy="770" rx="180" ry="130" fill="#33562c"/>
+    <ellipse cx="1540" cy="700" rx="120" ry="90" fill="#4a7c3f"/>
+    <ellipse cx="1400" cy="730" rx="110" ry="80" fill="#4a7c3f"/>
+  </g>
+
+  <!-- two volunteers walking the path with a cleanup bag -->
+  <g transform="translate(770,640)">
+    <!-- figure 1 -->
+    <g transform="translate(0,0)">
+      <ellipse cx="20" cy="182" rx="34" ry="8" fill="#0f3b47" opacity="0.15"/>
+      <path d="M6 110c0-16 8-24 18-24s18 8 18 24l-4 60H10z" fill="#12707f"/>
+      <rect x="12" y="164" width="10" height="32" rx="4" fill="#33562c"/>
+      <rect x="26" y="164" width="10" height="32" rx="4" fill="#33562c"/>
+      <circle cx="22" cy="70" r="17" fill="#c68642"/>
+      <path d="M6 66a16 14 0 0 1 32 0c-6-4-12-3-16-3s-10-1-16 3z" fill="#1c2624"/>
+      <path d="M-4 118c-2-18 6-30 14-34l6 8c-8 6-12 16-10 28z" fill="#0f3b47"/>
+    </g>
+    <!-- figure 2 -->
+    <g transform="translate(58,14)">
+      <ellipse cx="18" cy="168" rx="32" ry="7" fill="#0f3b47" opacity="0.15"/>
+      <path d="M4 100c0-15 8-22 16-22s16 7 16 22l-3 56H8z" fill="#4a7c3f"/>
+      <rect x="9" y="150" width="9" height="30" rx="4" fill="#1c2624"/>
+      <rect x="22" y="150" width="9" height="30" rx="4" fill="#1c2624"/>
+      <circle cx="20" cy="64" r="15" fill="#8a5a3d"/>
+      <path d="M6 60a14 13 0 0 1 29 0c-5-5-10-6-14-6s-10 1-15 6z" fill="#0f3b47"/>
+      <path d="M32 104c10 2 16 10 18 22l-9 2c-2-9-6-14-13-16z" fill="#33562c"/>
+    </g>
+    <!-- shared litter bag between them -->
+    <g transform="translate(46,118)">
+      <path d="M0 10c0-6 5-10 12-10s12 4 12 10l-3 34H3z" fill="#e4efd9" stroke="#4a7c3f" stroke-width="2"/>
+      <path d="M4 10c1-6 4-9 8-9s7 3 8 9" fill="none" stroke="#4a7c3f" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- small plastic litter near water edge, being addressed -->
+  <g transform="translate(360,690)" opacity="0.9">
+    <path d="M0 24c0-10 4-16 9-16s9 6 9 16l-2 18H2z" fill="#eef7f4" stroke="#b5501f" stroke-width="2"/>
+    <rect x="5" y="2" width="8" height="7" rx="2" fill="#b5501f"/>
+  </g>
+</svg>

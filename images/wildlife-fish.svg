@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="fishTitle">
+  <title id="fishTitle">Illustration of small river fish swimming among underwater reeds with light rays overhead</title>
+  <defs>
+    <linearGradient id="fWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/>
+      <stop offset="1" stop-color="#0a2e38"/>
+    </linearGradient>
+    <linearGradient id="fFish" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9edee"/>
+      <stop offset="1" stop-color="#6fb4c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fWater)"/>
+
+  <!-- light rays -->
+  <g fill="#eef7f4" opacity="0.12">
+    <path d="M120 0 L220 0 L140 600 L60 600Z"/>
+    <path d="M380 0 L460 0 L420 600 L340 600Z"/>
+    <path d="M600 0 L680 0 L560 600 L500 600Z"/>
+  </g>
+
+  <!-- underwater reed bed -->
+  <g stroke="#4a7c3f" stroke-width="10" stroke-linecap="round" opacity="0.8">
+    <path d="M40 600V300q0-40 20-60"/>
+    <path d="M90 600V260q10-50 40-70"/>
+    <path d="M700 600V320q0-50 -20-80"/>
+    <path d="M760 600V270q-10-40 -30-60"/>
+  </g>
+  <g stroke="#33562c" stroke-width="9" stroke-linecap="round" opacity="0.9">
+    <path d="M140 600V330q15-45 -5-90"/>
+    <path d="M640 600V340q-10-40 15-85"/>
+  </g>
+
+  <!-- bubbles -->
+  <g fill="#eef7f4" opacity="0.5">
+    <circle cx="250" cy="150" r="5"/><circle cx="262" cy="120" r="3.5"/>
+    <circle cx="560" cy="180" r="6"/><circle cx="548" cy="140" r="4"/>
+  </g>
+
+  <!-- fish school -->
+  <g>
+    <g transform="translate(220,240)">
+      <path d="M0 20 Q30 -10 70 20 Q30 50 0 20Z" fill="url(#fFish)"/>
+      <path d="M0 20 L-18 6 L-18 34Z" fill="#3d9aa8"/>
+      <circle cx="55" cy="16" r="2.4" fill="#0f3b47"/>
+    </g>
+    <g transform="translate(300,300) scale(0.8)">
+      <path d="M0 20 Q30 -10 70 20 Q30 50 0 20Z" fill="url(#fFish)"/>
+      <path d="M0 20 L-18 6 L-18 34Z" fill="#3d9aa8"/>
+      <circle cx="55" cy="16" r="2.4" fill="#0f3b47"/>
+    </g>
+    <g transform="translate(430,200) scale(1.1) rotate(-8)">
+      <path d="M0 20 Q30 -10 70 20 Q30 50 0 20Z" fill="url(#fFish)"/>
+      <path d="M0 20 L-18 6 L-18 34Z" fill="#3d9aa8"/>
+      <circle cx="55" cy="16" r="2.4" fill="#0f3b47"/>
+    </g>
+    <g transform="translate(500,340) scale(0.7) rotate(6)">
+      <path d="M0 20 Q30 -10 70 20 Q30 50 0 20Z" fill="url(#fFish)"/>
+      <path d="M0 20 L-18 6 L-18 34Z" fill="#3d9aa8"/>
+      <circle cx="55" cy="16" r="2.4" fill="#0f3b47"/>
+    </g>
+  </g>
+</svg>

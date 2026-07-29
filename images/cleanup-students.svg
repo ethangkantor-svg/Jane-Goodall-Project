@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="cleanupTitle">
+  <title id="cleanupTitle">Illustration of three student volunteers on the river pathway: one using a grabber tool, one holding an open collection bag, one carrying a full tied bag</title>
+  <defs>
+    <linearGradient id="csSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9edee"/>
+      <stop offset="1" stop-color="#e4efd9"/>
+    </linearGradient>
+    <linearGradient id="csWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/>
+      <stop offset="1" stop-color="#12707f"/>
+    </linearGradient>
+    <linearGradient id="csPath" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e0d2"/>
+      <stop offset="1" stop-color="#d9cfba"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#csSky)"/>
+  <path d="M0 260c220-20 300 20 500 0s180-20 300 10v40H0z" fill="url(#csWater)" opacity="0.9"/>
+  <path d="M0 300h800v300H0z" fill="#dce8cf"/>
+  <path d="M120 600c30-140 90-190 280-190s250 50 280 190z" fill="url(#csPath)" stroke="#c7bb9e" stroke-width="3"/>
+
+  <!-- tree clusters -->
+  <g fill="#4a7c3f">
+    <ellipse cx="80" cy="270" rx="90" ry="60"/>
+    <ellipse cx="720" cy="260" rx="100" ry="65"/>
+  </g>
+  <g fill="#33562c" opacity="0.8">
+    <ellipse cx="40" cy="300" rx="70" ry="45"/>
+    <ellipse cx="760" cy="295" rx="75" ry="45"/>
+  </g>
+
+  <!-- student 1: standing, grabber tool reaching down to a piece of litter -->
+  <g transform="translate(150,360)">
+    <ellipse cx="45" cy="222" rx="58" ry="12" fill="#0f3b47" opacity="0.12"/>
+    <rect x="20" y="150" width="18" height="70" rx="7" fill="#33562c"/>
+    <rect x="52" y="150" width="18" height="70" rx="7" fill="#33562c"/>
+    <path d="M14 90c22-16 54-16 76 0 4 24-2 50-14 66-18 8-38 8-52-2-14-18-16-42-10-64z" fill="#12707f"/>
+    <path d="M20 92c-16 4-26 18-26 40" stroke="#c68642" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <path d="M70 92c14 2 24 12 26 28" stroke="#c68642" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <circle cx="45" cy="62" r="24" fill="#c68642"/>
+    <path d="M20 58a25 22 0 0 1 50 0c-9-8-18-6-25-6s-16-2-25 6z" fill="#1c2624"/>
+    <!-- grabber tool pole, from hand down to litter on the ground -->
+    <path d="M-6 130 L-46 208" stroke="#8a5a3d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-46 208 l-11-3M-46 208 l6-10" stroke="#4d5a56" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- litter item at student 1's grabber tip, resting on the path -->
+  <g transform="translate(92,556)">
+    <path d="M2 14c0-7 4-11 8-11s8 4 8 11l-2 16H4z" fill="#eef7f4" stroke="#b5501f" stroke-width="2"/>
+  </g>
+
+  <!-- student 2: holding an open bag out to the side, dropping litter in -->
+  <g transform="translate(360,340)">
+    <ellipse cx="45" cy="242" rx="58" ry="12" fill="#0f3b47" opacity="0.12"/>
+    <rect x="20" y="168" width="18" height="72" rx="7" fill="#1c2624"/>
+    <rect x="52" y="168" width="18" height="72" rx="7" fill="#1c2624"/>
+    <path d="M14 100c22-16 54-16 76 0 4 26-2 54-14 70-18 8-38 8-52-2-14-18-16-44-10-68z" fill="#4a7c3f"/>
+    <path d="M18 104c-18 6-30 22-32 44" stroke="#8a5a3d" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <path d="M72 104c12 8 18 22 16 38" stroke="#8a5a3d" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <circle cx="45" cy="72" r="24" fill="#8a5a3d"/>
+    <path d="M20 68a25 22 0 0 1 50-4c-8-6-16-8-25-8s-17 2-25 12z" fill="#3a2a1c"/>
+  </g>
+  <!-- open bag held at student 2's hand, clear of the head -->
+  <g transform="translate(304,486)">
+    <path d="M0 16c0-10 8-16 20-16s20 6 20 16l-4 58H4z" fill="#f6f2ea" stroke="#4a7c3f" stroke-width="3"/>
+    <path d="M6 16c1-10 7-14 14-14s13 4 14 14" fill="none" stroke="#4a7c3f" stroke-width="3"/>
+    <circle cx="14" cy="38" r="4" fill="#b5501f" opacity="0.7"/>
+  </g>
+
+  <!-- student 3: standing, carrying a full tied bag at their side -->
+  <g transform="translate(590,350)">
+    <ellipse cx="42" cy="232" rx="55" ry="11" fill="#0f3b47" opacity="0.12"/>
+    <rect x="16" y="160" width="17" height="72" rx="7" fill="#33562c"/>
+    <rect x="48" y="160" width="17" height="72" rx="7" fill="#33562c"/>
+    <path d="M10 94c20-15 50-15 72 0 4 24-2 50-14 66-18 8-36 8-50-2-13-17-14-42-8-64z" fill="#7fae5f"/>
+    <path d="M14 98c-16 4-24 18-22 36" stroke="#f1c27d" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <path d="M66 98c14 6 20 20 16 36" stroke="#f1c27d" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <circle cx="42" cy="66" r="23" fill="#f1c27d"/>
+    <path d="M18 62c1-15 11-22 21-22s19 6 22 19c-8-6-15-4-22-4s-15-1-21 7z" fill="#6b3f22"/>
+  </g>
+  <!-- tied full bag hanging from student 3's hand, beside the leg -->
+  <g transform="translate(552,476)">
+    <path d="M0 12c0-8 6-12 16-12s16 4 16 12l-3 46H3z" fill="#e4efd9" stroke="#4a7c3f" stroke-width="2.5"/>
+    <path d="M10 0l2-8M20 0l0-8" stroke="#4a7c3f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

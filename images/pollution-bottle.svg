@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="pollutionTitle">
+  <title id="pollutionTitle">Illustration of a plastic bottle and litter tangled among reeds at the river's edge</title>
+  <defs>
+    <linearGradient id="pSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9edee"/>
+      <stop offset="1" stop-color="#a9d6cf"/>
+    </linearGradient>
+    <linearGradient id="pWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/>
+      <stop offset="1" stop-color="#0f3b47"/>
+    </linearGradient>
+    <linearGradient id="pBottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#cfe6e2" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pSky)"/>
+  <path d="M0 320c200-15 320 25 480 5s220-25 320 0v275H0z" fill="url(#pWater)"/>
+  <path d="M20 350q220-15 400 5t360 0" fill="none" stroke="#7fcdd6" stroke-width="4" opacity="0.35"/>
+
+  <!-- reeds -->
+  <g stroke="#4a7c3f" stroke-width="7" stroke-linecap="round" opacity="0.7">
+    <path d="M50 600V280"/><path d="M100 600V240"/><path d="M150 600V300"/>
+    <path d="M650 600V260"/><path d="M700 600V300"/><path d="M740 600V230"/>
+  </g>
+  <g fill="#4a7c3f" opacity="0.7">
+    <ellipse cx="100" cy="232" rx="8" ry="18"/><ellipse cx="740" cy="222" rx="8" ry="18"/>
+  </g>
+
+  <!-- floating plastic bag -->
+  <g transform="translate(500,330)" opacity="0.85">
+    <path d="M0 0c20-14 60-14 82 4 10 18-4 34-26 32-8 14-30 16-42 2-16 2-24-16-14-26z" fill="#eef7f4" stroke="#b5cfd4" stroke-width="2"/>
+  </g>
+
+  <!-- bottle caught in reeds, center -->
+  <g transform="translate(300,300)">
+    <ellipse cx="60" cy="272" rx="70" ry="14" fill="#0f3b47" opacity="0.12"/>
+    <path d="M40 30h40v20l14 20v190a10 10 0 0 1-10 10H36a10 10 0 0 1-10-10V70l14-20z" fill="url(#pBottle)" stroke="#8fb9bd" stroke-width="3"/>
+    <rect x="40" y="8" width="40" height="26" rx="4" fill="#b5501f"/>
+    <rect x="30" y="120" width="60" height="60" rx="6" fill="#ffffff" opacity="0.5" stroke="#8fb9bd" stroke-width="1.5"/>
+    <path d="M30 200c30 10 60 10 90 -2" fill="none" stroke="#8fb9bd" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- can, foreground right -->
+  <g transform="translate(560,420)" opacity="0.95">
+    <ellipse cx="30" cy="94" rx="38" ry="9" fill="#0f3b47" opacity="0.12"/>
+    <rect x="4" y="10" width="52" height="80" rx="10" fill="#7fae5f"/>
+    <ellipse cx="30" cy="10" rx="26" ry="8" fill="#c9e6b8"/>
+    <rect x="10" y="40" width="40" height="10" fill="#33562c" opacity="0.5"/>
+  </g>
+
+  <!-- ripples radiating from litter -->
+  <path d="M280 420q40-14 80 0t80 0" fill="none" stroke="#7fcdd6" stroke-width="3" opacity="0.4"/>
+</svg>

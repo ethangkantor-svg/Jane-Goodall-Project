@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="testingTitle">
+  <title id="testingTitle">Illustration of a student kneeling at the riverbank, dipping a sample vial into the water beside a testing kit and data clipboard</title>
+  <defs>
+    <linearGradient id="wtSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9edee"/>
+      <stop offset="1" stop-color="#a9d6cf"/>
+    </linearGradient>
+    <linearGradient id="wtWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9aa8"/>
+      <stop offset="1" stop-color="#0f3b47"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#wtSky)"/>
+  <path d="M0 240c220-18 320 18 500 0s180-18 300 9v40H0z" fill="#4a7c3f" opacity="0.35"/>
+
+  <!-- water, right two-thirds -->
+  <path d="M330 300h470v300H330c-30-90-30-210 0-300z" fill="url(#wtWater)"/>
+  <path d="M430 460q220-15 370 5" fill="none" stroke="#7fcdd6" stroke-width="4" opacity="0.35"/>
+  <path d="M430 520q220-12 370 6" fill="none" stroke="#a9e2e6" stroke-width="3" opacity="0.3"/>
+
+  <!-- grass bank, left third -->
+  <path d="M0 260c110 4 190 30 260 90s70 150 60 250H0z" fill="#e4efd9"/>
+  <g fill="#33562c" opacity="0.85">
+    <ellipse cx="55" cy="255" rx="80" ry="55"/>
+    <ellipse cx="0" cy="300" rx="60" ry="45"/>
+  </g>
+
+  <!-- kneeling student, reaching toward the water -->
+  <g transform="translate(150,300)">
+    <ellipse cx="95" cy="255" rx="90" ry="14" fill="#0f3b47" opacity="0.1"/>
+    <!-- back knee/shin on the ground -->
+    <rect x="10" y="180" width="34" height="80" rx="14" fill="#33562c"/>
+    <!-- front thigh, bent -->
+    <rect x="60" y="170" width="70" height="34" rx="14" fill="#4a7c3f"/>
+    <rect x="108" y="170" width="34" height="80" rx="14" fill="#4a7c3f"/>
+    <!-- torso, leaning forward -->
+    <path d="M18 70c26-18 66-18 92 0 10 40 4 82-16 110-24 10-50 8-68-6-18-28-20-72-8-104z" fill="#12707f"/>
+    <!-- extended arm reaching to the water, vial at the hand -->
+    <path d="M108 96q70 -50 132 -51" stroke="#c68642" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <!-- other arm resting near the knee -->
+    <path d="M30 106c-12 20-14 42-6 62" stroke="#c68642" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <!-- head -->
+    <circle cx="64" cy="46" r="27" fill="#c68642"/>
+    <path d="M36 42a28 25 0 0 1 56 0c-10-9-20-7-28-7s-18-2-28 7z" fill="#1c2624"/>
+  </g>
+
+  <!-- sample vial at the end of the reaching hand, touching the water -->
+  <g transform="translate(378,318) rotate(70)">
+    <rect x="0" y="0" width="18" height="46" rx="6" fill="#eef7f4" stroke="#8fb9bd" stroke-width="2.5"/>
+    <rect x="2" y="18" width="14" height="26" rx="3" fill="#7fcdd6" opacity="0.85"/>
+    <rect x="4" y="-8" width="10" height="10" rx="2" fill="#4d5a56"/>
+  </g>
+
+  <!-- testing kit box on the grass -->
+  <g transform="translate(40,400)">
+    <rect x="0" y="0" width="100" height="60" rx="8" fill="#e8e0d2" stroke="#c7bb9e" stroke-width="2.5"/>
+    <rect x="8" y="8" width="84" height="10" rx="3" fill="#12707f"/>
+    <circle cx="24" cy="40" r="10" fill="#fff" stroke="#c7bb9e" stroke-width="2"/>
+    <circle cx="50" cy="40" r="10" fill="#fff" stroke="#c7bb9e" stroke-width="2"/>
+    <circle cx="76" cy="40" r="10" fill="#fff" stroke="#c7bb9e" stroke-width="2"/>
+    <circle cx="24" cy="40" r="5" fill="#7fae5f"/>
+    <circle cx="50" cy="40" r="5" fill="#3d9aa8"/>
+    <circle cx="76" cy="40" r="5" fill="#f6c453"/>
+  </g>
+
+  <!-- clipboard propped against the kit box -->
+  <g transform="translate(120,392) rotate(-8)">
+    <rect x="0" y="0" width="58" height="76" rx="5" fill="#f6f2ea" stroke="#c7bb9e" stroke-width="2.5"/>
+    <rect x="18" y="-6" width="22" height="10" rx="3" fill="#c7bb9e"/>
+    <text x="29" y="22" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0f3b47" text-anchor="middle">pH log</text>
+    <line x1="8" y1="34" x2="50" y2="34" stroke="#4d5a56" stroke-width="2"/>
+    <line x1="8" y1="44" x2="50" y2="44" stroke="#4d5a56" stroke-width="2"/>
+    <line x1="8" y1="54" x2="50" y2="54" stroke="#4d5a56" stroke-width="2"/>
+    <line x1="8" y1="64" x2="34" y2="64" stroke="#4d5a56" stroke-width="2"/>
+  </g>
+
+  <!-- ripple where the vial meets the water -->
+  <path d="M350 335q26-8 52 0t52 0" fill="none" stroke="#7fcdd6" stroke-width="3" opacity="0.6"/>
+</svg>

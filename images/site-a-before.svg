@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="siteABeforeTitle">
+  <title id="siteABeforeTitle">Before: a riverside park bench area with scattered bottles, cans, and bags in the grass</title>
+  <defs>
+    <linearGradient id="aSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9e0e0"/>
+      <stop offset="1" stop-color="#e8e0d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#aSky)"/>
+  <path d="M0 260c250-15 350 15 500 0s170-10 300 10v20H0z" fill="#7fae5f" opacity="0.4"/>
+  <rect x="0" y="280" width="800" height="320" fill="#dbe6c9"/>
+  <path d="M260 600c10-140 60-170 140-170s130 30 140 170z" fill="#e8e0d2" opacity="0.7"/>
+
+  <g fill="#4a7c3f" opacity="0.7">
+    <ellipse cx="90" cy="270" rx="90" ry="55"/>
+    <ellipse cx="710" cy="260" rx="100" ry="60"/>
+  </g>
+
+  <!-- bench -->
+  <g transform="translate(330,340)">
+    <rect x="0" y="30" width="140" height="10" rx="3" fill="#8a6544"/>
+    <rect x="0" y="55" width="140" height="10" rx="3" fill="#8a6544"/>
+    <rect x="0" y="0" width="140" height="10" rx="3" fill="#6f4e33"/>
+    <rect x="6" y="65" width="10" height="40" fill="#4d3521"/>
+    <rect x="124" y="65" width="10" height="40" fill="#4d3521"/>
+  </g>
+
+  <!-- litter scattered around: bottles, can, bag, wrapper -->
+  <g transform="translate(210,470)">
+    <path d="M4 18c0-8 4-13 9-13s9 5 9 13l-2 20H6z" fill="#eef7f4" stroke="#b5501f" stroke-width="2"/>
+    <rect x="8" y="2" width="8" height="6" rx="1.5" fill="#b5501f"/>
+  </g>
+  <g transform="translate(270,500) rotate(-25)">
+    <rect x="0" y="0" width="16" height="46" rx="6" fill="#3d9aa8" opacity="0.8"/>
+    <ellipse cx="8" cy="0" rx="8" ry="3" fill="#d9edee"/>
+  </g>
+  <g transform="translate(440,490)">
+    <path d="M0 12c14-10 40-10 54 2 4 12-8 20-27 20S-4 24 0 12z" fill="#eef7f4" stroke="#c7bb9e" stroke-width="2"/>
+  </g>
+  <g transform="translate(500,460) rotate(15)">
+    <rect x="0" y="0" width="20" height="14" rx="3" fill="#b5501f" opacity="0.7"/>
+  </g>
+  <g transform="translate(360,520)">
+    <ellipse cx="10" cy="4" rx="18" ry="5" fill="#f6c453" opacity="0.8"/>
+  </g>
+  <g transform="translate(560,510) rotate(-10)">
+    <path d="M4 16c0-7 4-11 8-11s8 4 8 11l-2 18H6z" fill="#eef7f4" stroke="#b5501f" stroke-width="2"/>
+  </g>
+</svg>

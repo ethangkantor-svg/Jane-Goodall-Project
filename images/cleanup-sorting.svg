@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="sortingTitle">
+  <title id="sortingTitle">Illustration of two students at a folding table sorting and weighing collected litter while a third logs data on a clipboard</title>
+  <defs>
+    <linearGradient id="soBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9edee"/>
+      <stop offset="1" stop-color="#f6f2ea"/>
+    </linearGradient>
+    <linearGradient id="soTable" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e0d2"/>
+      <stop offset="1" stop-color="#c7bb9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#soBg)"/>
+  <path d="M0 380h800v220H0z" fill="#dce8cf"/>
+  <g fill="#4a7c3f" opacity="0.5">
+    <ellipse cx="60" cy="330" rx="80" ry="55"/>
+    <ellipse cx="740" cy="320" rx="90" ry="60"/>
+  </g>
+
+  <!-- table -->
+  <g transform="translate(160,360)">
+    <rect x="0" y="0" width="480" height="26" rx="6" fill="url(#soTable)"/>
+    <rect x="14" y="26" width="10" height="90" fill="#a99b78"/>
+    <rect x="456" y="26" width="10" height="90" fill="#a99b78"/>
+  </g>
+
+  <!-- student A: placing item in recycle bin, standing behind the table -->
+  <g transform="translate(150,150)">
+    <path d="M14 120c20 14 44 14 64 0l-6 70H20z" fill="#12707f"/>
+    <path d="M16 122c-14 6-22 20-22 34" stroke="#c68642" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M64 122c14 4 20 18 16 34" stroke="#c68642" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="46" cy="94" r="22" fill="#c68642"/>
+    <path d="M24 90a23 20 0 0 1 46-4c-8-6-16-8-23-8s-16 2-23 12z" fill="#1c2624"/>
+  </g>
+
+  <!-- student B: holding a bottle to sort, standing behind the table -->
+  <g transform="translate(320,150)">
+    <path d="M12 120c20 14 44 14 64 0l-6 70H18z" fill="#7fae5f"/>
+    <path d="M14 122c-16 4-24 16-22 32" stroke="#8a5a3d" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M62 122c12 6 16 18 12 30" stroke="#8a5a3d" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="44" cy="94" r="22" fill="#8a5a3d"/>
+    <path d="M22 92c0-14 10-22 22-22s21 7 23 18c-8-6-15-8-23-8s-16 2-22 12z" fill="#3a2a1c"/>
+    <rect x="66" y="128" width="12" height="26" rx="4" fill="#eef7f4" stroke="#8fb9bd" stroke-width="2"/>
+  </g>
+
+  <!-- student C: logging data on clipboard, standing behind the table -->
+  <g transform="translate(450,140)">
+    <path d="M14 124c20 14 44 14 64 0l-6 70H20z" fill="#3d9aa8"/>
+    <path d="M16 126c-14 8-18 22-14 36" stroke="#f1c27d" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M64 126c14 2 22 14 20 28" stroke="#f1c27d" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="46" cy="96" r="22" fill="#f1c27d"/>
+    <path d="M24 92c2-14 12-20 22-20s19 6 22 18c-8-6-14-6-22-6s-16 0-22 8z" fill="#6b3f22"/>
+    <g transform="translate(58,138)">
+      <rect x="0" y="0" width="34" height="46" rx="4" fill="#f6f2ea" stroke="#c7bb9e" stroke-width="2"/>
+      <rect x="10" y="-6" width="14" height="10" rx="2" fill="#c7bb9e"/>
+      <line x1="6" y1="14" x2="28" y2="14" stroke="#4d5a56" stroke-width="2"/>
+      <line x1="6" y1="22" x2="28" y2="22" stroke="#4d5a56" stroke-width="2"/>
+      <line x1="6" y1="30" x2="20" y2="30" stroke="#4d5a56" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- sorting bins on the table, in front of the students' hands -->
+  <g transform="translate(190,320)">
+    <rect x="0" y="0" width="80" height="60" rx="8" fill="#7fae5f"/>
+    <rect x="6" y="6" width="68" height="14" rx="4" fill="#c9e6b8"/>
+    <text x="40" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2624" text-anchor="middle">RECYCLE</text>
+  </g>
+  <g transform="translate(290,320)">
+    <rect x="0" y="0" width="80" height="60" rx="8" fill="#3d9aa8"/>
+    <rect x="6" y="6" width="68" height="14" rx="4" fill="#d9edee"/>
+    <text x="40" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#0f3b47" text-anchor="middle">PLASTIC</text>
+  </g>
+  <g transform="translate(390,320)">
+    <rect x="0" y="0" width="80" height="60" rx="8" fill="#b5501f" opacity="0.85"/>
+    <rect x="6" y="6" width="68" height="14" rx="4" fill="#f3d9c8"/>
+    <text x="40" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#4a2410" text-anchor="middle">TRASH</text>
+  </g>
+
+  <!-- hanging scale -->
+  <g transform="translate(500,300)">
+    <rect x="18" y="0" width="4" height="30" fill="#4d5a56"/>
+    <circle cx="20" cy="45" r="16" fill="none" stroke="#4d5a56" stroke-width="3"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="12" fill="#4d5a56" text-anchor="middle">lb</text>
+    <path d="M8 34h24l6 20H2z" fill="none" stroke="#4d5a56" stroke-width="2"/>
+    <path d="M4 60c0-10 8-16 16-16s16 6 16 16" fill="none" stroke="#4d5a56" stroke-width="2"/>
+  </g>
+</svg>
