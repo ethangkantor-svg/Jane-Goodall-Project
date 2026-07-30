@@ -77,9 +77,9 @@ show up in the grid automatically.
 
 ## Swapping in real photos
 
-Every image on the site is an original illustration sized to fit a specific spot —
-a 4:3 card, a 16:9 hero, etc. When you have real cleanup photos, you don't need to
-touch any CSS or layout — just replace the `src` on the `<img>` tag.
+Every image on the site is an original illustration sized to fit a specific spot,
+like a 4:3 card or a 16:9 hero. When you have real cleanup photos, you don't need to
+touch any CSS or layout. Just replace the `src` on the `<img>` tag.
 
 | Illustration file | Used on | Suggested real-photo filename | Suggested size |
 |---|---|---|---|
@@ -91,15 +91,17 @@ touch any CSS or layout — just replace the `src` on the `<img>` tag.
 | `images/cleanup-students.svg` | Home, About, Get Involved | `cleanup-in-action.jpg` | 800×600px |
 | `images/cleanup-sorting.svg` | About, Support | `sorting-and-weighing.jpg` | 800×600px |
 | `images/water-testing.svg` | Education | `water-testing.jpg` | 800×600px |
-| `images/site-a-before.svg` / `site-a-after.svg` | Impact gallery | `site-a-before.jpg` / `site-a-after.jpg` | 800×600px each |
-| `images/site-b-before.svg` / `site-b-after.svg` | Impact gallery | `site-b-before.jpg` / `site-b-after.jpg` | 800×600px each |
-| `images/site-c-before.svg` / `site-c-after.svg` | Impact gallery | `site-c-before.jpg` / `site-c-after.jpg` | 800×600px each |
-| `images/logo-mark.svg` | Every page (nav, footer, favicon) | — keep this one as a vector mark, it's the logo | — |
+| `images/site-a-before.svg` | About | `site-a-before.jpg` | 800×600px |
+| `images/logo-mark.svg` | Every page (nav, footer, favicon) | keep this one as a vector mark, it's the logo | — |
 
 When you replace an image, update both the `src` **and** the `alt` text on that `<img>`
-tag to describe the real photo. If you add a before/after gallery entry on the Impact
-page, also update its `data-full` and `data-alt` attributes on the matching button —
-that's what the click-to-enlarge lightbox uses.
+tag to describe the real photo.
+
+There used to be a before/after photo gallery on the Impact page, but it's been taken
+down for now. The click-to-enlarge lightbox code is still in `js/main.js` if you want
+to bring a gallery back later. It works with any `<button data-lightbox-trigger>`
+element that has `data-full`, `data-alt`, and `data-caption` attributes; see the git
+history for `impact.html` for a working example to copy from.
 
 ## Placeholders you should replace
 
