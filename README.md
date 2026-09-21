@@ -91,11 +91,18 @@ touch any CSS or layout. Just replace the `src` on the `<img>` tag.
 | `images/cleanup-students.svg` | Home, About, Get Involved | `cleanup-in-action.jpg` | 800×600px |
 | `images/cleanup-sorting.svg` | About, Support | `sorting-and-weighing.jpg` | 800×600px |
 | `images/water-testing.svg` | Education | `water-testing.jpg` | 800×600px |
-| `images/site-a-before.svg` | About | `site-a-before.jpg` | 800×600px |
 | `images/logo-mark.svg` | Every page (nav, footer, favicon) | keep this one as a vector mark, it's the logo | — |
 
 When you replace an image, update both the `src` **and** the `alt` text on that `<img>`
 tag to describe the real photo.
+
+The About page's origin story already uses a real photo:
+`images/litter-awareness-sign.webp`, one of the yard signs the project leaves at cleanup
+sites. It's a tall portrait photo, so its `<figure>` uses an inline `aspect-ratio` that
+matches the photo instead of the usual `ratio-4-3`/`ratio-16-9` classes, so nothing gets
+cropped. If you swap in a different portrait photo there, update that `aspect-ratio` to
+match its real width/height, or drop it and use one of the standard `.ratio-*` classes
+if the new photo is closer to landscape.
 
 There used to be a before/after photo gallery on the Impact page, but it's been taken
 down for now. The click-to-enlarge lightbox code is still in `js/main.js` if you want
